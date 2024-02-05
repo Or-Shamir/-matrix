@@ -12,7 +12,7 @@ def get_pokemon_api_data(url):
 
 # Question 1
 def test_pokemon_type_api_response():
-    url = 'https://pokeapi.co/api/v2/'
+    url = 'https://pokeapi.co/api/v2/type'
     data_Q1 = get_pokemon_api_data(url)
     # Ensure response is a dictionary => json format
     assert isinstance(data_Q1, dict)
