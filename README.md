@@ -98,3 +98,9 @@ requirements.txt: A file containing the required Python packages.
 Execute the script with pytest:
 `pytest -v Pokemon_poc.py`
 The -v flag stands for verbose, providing detailed information about the tests being run.
+
+
+
+**Notes**
+
+I only compared the two dictionaries as two whole identical dictionaries, I didn't have the time to implements what happens if only part of the dictionries are identical, if some records are missing etc.
